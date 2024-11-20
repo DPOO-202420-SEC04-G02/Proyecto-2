@@ -3,12 +3,12 @@ package interfaz;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import usuario.estudiante;  // Change to "Estudiante" (with capital "E")
-import actividades.Activity;  // Assuming Activity is an abstract or concrete class
+import usuario.estudiante;  
+import actividades.Activity;  
 
 public class HacerActividad {
 
-    private estudiante estudiante;  // Changed to "Estudiante" to match Java naming conventions
+    private estudiante estudiante;  
 
     public HacerActividad(estudiante estudiante) {
         this.estudiante = estudiante;
